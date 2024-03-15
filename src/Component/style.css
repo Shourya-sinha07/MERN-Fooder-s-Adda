@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Slabo+27px&family=Smooch&display=swap');
+.name{
+    font-family: 'Smooch', cursive;
+}
+
+.imgnew{
+    
+}
+/* .overl::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    pointer-events: none; 
+  } */
+/* .z-prop{
+    position: relative;
+}
+.posa{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+} */
+#carousel{
+    max-height: 600px;
+}
