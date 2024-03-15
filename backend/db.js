@@ -1,5 +1,5 @@
 const mongoose=require('mongoose') //import mongoose
-const Mongouri='mongodb+srv://Fooders_Adda:Shourya123@cluster0.kdwr1ka.mongodb.net/Fooders-Adda?retryWrites=true&w=majority' //mongodb URI(Uniform Resource Identifier) string
+const Mongouri='Placce your connection string' //mongodb URI(Uniform Resource Identifier) string
 const Mongodb=async()=>{
 
     await mongoose.connect(Mongouri) //establish connection to mongodb database
