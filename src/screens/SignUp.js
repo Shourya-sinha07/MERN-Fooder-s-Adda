@@ -74,6 +74,7 @@ export default function SignUp() {
             </small>
           </div>
           <div className="form-group">
+          
             <label htmlFor="exampleInputPassword1">Password</label>
             <input
               type="password"
@@ -84,7 +85,12 @@ export default function SignUp() {
               value={creadentials.password}
               onChange={onChange}
               placeholder="Password"
+              minLength={5}
+              required
             />
+            <small id="emailHelp" className="form-text text-muted">
+              Password must conatain a  CAPITAL LETTER , small letter and special SYMbol
+            </small>
           </div>
           <div className="form-group">
             <label htmlFor="exampleInputPassword1">Address</label>
